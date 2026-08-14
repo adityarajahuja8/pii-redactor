@@ -109,25 +109,41 @@ const upload = multer({
  * @returns {Promise<{ stdout: string, stderr: string }>}
  */
 async function runPiiRedactor(inputPath, outputPath, mappingPath) {
-  // Change cwd to the project root so `python -m pii_redactor.redactor` can find the package.
-  // Adjust PYTHON_CWD if your pii_redactor package is somewhere other than the parent of server/.
-  const PYTHON_CWD = path.join(__dirname, "..", "..");  // → Scaler/
+  const PYTHON_CWD = path.join(__dirname, "..", "..");
 
-  return execFileAsync(
-    "python",   // The Python executable; change to "python3" on Linux/macOS if needed
-    [
-      "-m", "pii_redactor.redactor",  // Module invocation — no shell needed
-      inputPath,
-      "--output",         outputPath,
-      "--mapping-output", mappingPath,
-      "--log-level",      "WARNING",   // Suppress INFO noise; stderr still captures errors
-    ],
-    {
-      cwd:     PYTHON_CWD,
-      timeout: 5 * 60 * 1000,  // 5-minute timeout per file (spaCy + large docs can be slow)
-      maxBuffer: 10 * 1024 * 1024,  // 10 MB stdout buffer
+  // Try configured binary, or fallback between python3 and python
+  const candidates = process.env.PYTHON_BIN 
+    ? [process.env.PYTHON_BIN]
+    : (process.platform === "win32" ? ["python", "python3"] : ["python3", "python"]);
+
+  const args = [
+    "-m", "pii_redactor.redactor",
+    inputPath,
+    "--output",         outputPath,
+    "--mapping-output", mappingPath,
+    "--log-level",      "WARNING",
+  ];
+
+  let lastError;
+  for (const bin of candidates) {
+    try {
+      return await execFileAsync(bin, args, {
+        cwd:       PYTHON_CWD,
+        timeout:   5 * 60 * 1000,
+        maxBuffer: 10 * 1024 * 1024,
+      });
+    } catch (err) {
+      lastError = err;
+      if (err.code === "ENOENT") {
+        // Binary not found, try next candidate in list
+        continue;
+      }
+      // Execution error (not ENOENT), rethrow immediately
+      throw err;
     }
-  );
+  }
+
+  throw lastError;
 }
 
 // ── Parse pii_mapping.json → summary counts per type ─────────────────────────
