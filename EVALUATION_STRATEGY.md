@@ -62,43 +62,27 @@ The evaluation pipeline (`pii_redactor/evaluator.py`) ran against the annotated 
 
 ---
 
-## 5. Full Document Detection Volume
+## 5. Detailed Error & Failure Mode Analysis
 
-Across the entire 400-page document (`Red_Herring_Prospectus.docx`), the tool detected and redacted **757 total PII instances**:
-
-| PII Type | Total Detected Count |
-|---|:---:|
-| **PERSON** | 286 |
-| **DATE_OF_BIRTH** | 304 |
-| **EMAIL** | 68 |
-| **ADDRESS** | 61 |
-| **PHONE** | 29 |
-| **CIN** | 9 |
-| **TOTAL DETECTIONS** | **757** |
-
----
-
-## 6. Detailed Error & Failure Mode Analysis
-
-### 6.1 PERSON Detector Optimization (v1 vs v2)
+### 5.1 PERSON Detector Optimization (v1 vs v2)
 - **v1 Baseline Precision**: **40.4%** (162 False Positives).
   - *Cause*: Small spaCy model (`en_core_web_sm`) misclassified capitalised legal terms like *"Offer"*, *"Promoters"*, *"Directors"*, and *"Reference Rate"* as PERSON names.
 - **v2 Fix**: Added a 40+ term legal blocklist (`_PERSON_BLOCKLIST`) combined with structural name validation (`_VALID_NAME_RE`).
 - **v2 Result**: Precision jumped to **100.0%** (0 False Positives in sample).
 
-### 6.2 ADDRESS Detector Optimization
+### 5.2 ADDRESS Detector Optimization
 - **v1 Issue**: Fired on jurisdictional sentences (e.g., *"...Registrar of Companies, Maharashtra at Mumbai..."*).
 - **v2 Fix**: Added a mandatory street-level token requirement (`"Tower"`, `"Village"`, `"Off"`, `"Plot"`, or 6-digit PIN).
 - **v2 Result**: Precision jumped from **92.3%** to **100.0%**.
 
-### 6.3 DATE_OF_BIRTH — Known Tradeoff
+### 5.3 DATE_OF_BIRTH — Known Tradeoff
 - **Current Metric**: **30.6% Precision**, **100% Recall**.
 - *Root Cause*: The date regex matches all valid date strings (e.g., *"March 31, 2025"*, *"December 10, 2025"*). In financial prospectuses, >90% of date occurrences represent fiscal year ends, board resolutions, or offer timelines rather than personal birth dates.
 - *Tradeoff Rationale*: We prioritized **100% Recall** (zero leaked birth dates) over precision for date fields.
 
 ---
 
-## 7. Recommended Production Enhancements
+## 6. Recommended Production Enhancements
 
 1. **Context-Aware Date Classifier**:
    Wrap the date regex in a contextual window classifier that only triggers redaction when adjacent to tokens like `"Age:"`, `"Date of Birth:"`, `"Born on:"`, or when residing inside director biography blocks.
