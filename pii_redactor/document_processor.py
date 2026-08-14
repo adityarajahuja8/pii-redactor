@@ -59,6 +59,35 @@ def _run_detectors(text: str) -> list[PIIMatch]:
     return deduped
 
 
+# Fast pre-filter regex patterns — cheap checks before spaCy NER is called
+_RE_HAS_CAPS    = re.compile(r'[A-Z]')          # any uppercase letter
+_RE_HAS_DIGIT   = re.compile(r'\d')             # any digit (phones, CINs, dates)
+_RE_HAS_AT      = re.compile(r'@')              # email indicator
+_RE_HAS_PLUS    = re.compile(r'\+')             # phone prefix
+
+def _might_contain_pii(text: str) -> bool:
+    """
+    Cheap O(n) pre-filter: returns False for text blocks that cannot
+    contain any of our PII types, so we skip the expensive spaCy NER call.
+
+    Rules (all must fail to return False):
+      - Blank or very short text (< 4 chars)
+      - No uppercase letters  → cannot be a name or CIN
+      - No digits             → cannot be phone/email/date/CIN
+      - No '@' or '+' signs   → cannot be email or phone
+    """
+    stripped = text.strip()
+    if len(stripped) < 4:
+        return False
+    # If it has an uppercase letter OR a digit OR @ OR + it might have PII
+    return bool(
+        _RE_HAS_CAPS.search(stripped)
+        or _RE_HAS_DIGIT.search(stripped)
+        or _RE_HAS_AT.search(stripped)
+        or _RE_HAS_PLUS.search(stripped)
+    )
+
+
 def redact_text(text: str, mapper: FakeValueMapper) -> tuple[str, list[PIIMatch]]:
     """
     Replace PII in *text* with consistent fakes from *mapper*.
@@ -103,7 +132,11 @@ def _redact_paragraph(paragraph, mapper: FakeValueMapper) -> list[PIIMatch]:
     if not full_text.strip():
         return []
 
-    # 2. Detect PII on full text
+    # 2. Fast pre-filter — skip paragraphs that provably contain no PII
+    if not _might_contain_pii(full_text):
+        return []
+
+    # 3. Detect PII on full text
     matches = _run_detectors(full_text)
     if not matches:
         return []
@@ -136,14 +169,24 @@ def _redact_paragraph(paragraph, mapper: FakeValueMapper) -> list[PIIMatch]:
     return matches
 
 
-def _redact_paragraphs(paragraphs, mapper: FakeValueMapper) -> list[PIIMatch]:
+def _redact_paragraphs(paragraphs, mapper: FakeValueMapper, label: str = "") -> list[PIIMatch]:
     all_matches = []
-    for para in paragraphs:
+    para_list = list(paragraphs)
+    total = len(para_list)
+    skipped = 0
+    for idx, para in enumerate(para_list):
+        # Log progress every 100 paragraphs so Render logs show activity
+        if total > 100 and idx % 100 == 0:
+            logger.info(f"  {label}Progress: {idx}/{total} paragraphs ({skipped} skipped by pre-filter)")
         try:
             hits = _redact_paragraph(para, mapper)
+            if not hits and para.text.strip() and not _might_contain_pii(para.text):
+                skipped += 1
             all_matches.extend(hits)
         except Exception as exc:
             logger.debug(f"Paragraph redaction error: {exc}")
+    if total > 0:
+        logger.info(f"  {label}Done: {total} paragraphs, {skipped} skipped, {len(all_matches)} PII hits")
     return all_matches
 
 
@@ -178,10 +221,9 @@ def process_document(
     all_matches: list[PIIMatch] = []
 
     # --- Body paragraphs ---
-    logger.info("Redacting body paragraphs...")
-    hits = _redact_paragraphs(doc.paragraphs, mapper)
+    logger.info(f"Redacting body paragraphs ({len(doc.paragraphs)} total)...")
+    hits = _redact_paragraphs(doc.paragraphs, mapper, label="Body ")
     all_matches.extend(hits)
-    logger.info(f"  {len(hits)} PII hits in body paragraphs")
 
     # --- Tables ---
     logger.info("Redacting tables...")
