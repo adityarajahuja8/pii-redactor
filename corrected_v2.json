@@ -1,0 +1,2244 @@
+[
+  {
+    "text": "Dated December 10, 2025",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 10, 2025",
+        "start": 6,
+        "end": 23,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "KSH INTERNATIONAL LIMITED CORPORATE IDENTITY NUMBER: U28129PN1979PLC141032",
+    "detections": [
+      {
+        "pii_type": "CIN",
+        "text": "U28129PN1979PLC141032",
+        "start": 53,
+        "end": 74,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Dated December 10, 2025 Please read section 32 of the Companies Act, 2013",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 10, 2025",
+        "start": 6,
+        "end": 23,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Our Company was originally incorporated as “Bhandary Metal Extrusion Private Limited” under the provisions of the Companies Act, 1956, pursuant to a certificate of incorporation dated July 30, 1979, issued by the Registrar of Companies, Maharashtra at Bombay. Subsequently, the name of our Company was changed from “Bhandary Metal Extrusion Private Limited” to “KSH International Private Limited” pursuant to a resolution dated June 1, 1996 passed by our Board and a resolution dated June 24, 1996 passed by our shareholders, post which a fresh certificate of incorporation dated July 4, 1996 was issued by Registrar of Companies Maharashtra at Mumbai pursuant to change of name under the Companies Act, 1956. Further, pursuant to a special resolution passed by our Shareholders on January 13, 2011 which was confirmed by an order of the regional director dated August 16, 2011, the registered office of our Company was shifted from the jurisdiction of Registrar of Companies, Maharashtra at Mumbai to the jurisdiction of the Registrar of Companies, Maharashtra at Pune, and a certificate of registration of the order of regional director confirming transfer of the registered office within the same state was issued to us on October 13, 2011, by the RoC. On the conversion of our Company from a private limited company to a public limited company, pursuant to a resolution passed by our Board on December 11, 2024 and a special resolution passed by our Shareholders on December 19, 2024, the name of our Company was changed to “KSH International Limited” and a fresh certificate of incorporation was issued by the Registrar of Companies, Central Processing Centre on January 20, 2025. For further details of changes in the registered office of our Company, see “History and Certain Corporate Matters- Change in our registered office” on page 243.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "July 30, 1979",
+        "start": 184,
+        "end": 197,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "June 1, 1996",
+        "start": 428,
+        "end": 440,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "June 24, 1996",
+        "start": 484,
+        "end": 497,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "July 4, 1996",
+        "start": 580,
+        "end": 592,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "January 13, 2011",
+        "start": 782,
+        "end": 798,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "August 16, 2011",
+        "start": 862,
+        "end": 877,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "October 13, 2011",
+        "start": 1226,
+        "end": 1242,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 11, 2024",
+        "start": 1397,
+        "end": 1414,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 19, 2024",
+        "start": 1470,
+        "end": 1487,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "January 20, 2025",
+        "start": 1668,
+        "end": 1684,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Corporate Identity Number: U28129PN1979PLC141032",
+    "detections": [
+      {
+        "pii_type": "CIN",
+        "text": "U28129PN1979PLC141032",
+        "start": 27,
+        "end": 48,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Registered Office: 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India;",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "Registered Office: 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India;",
+        "start": 0,
+        "end": 116,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Corporate Office: 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India;",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "Corporate Office: 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India;",
+        "start": 0,
+        "end": 118,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Contact Person: Sarthak Malvadkar, Company Secretary and Compliance Officer; Telephone: + 91 20 4505 3237;",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Sarthak Malvadkar",
+        "start": 16,
+        "end": 33,
+        "fp": false
+      },
+      {
+        "pii_type": "PHONE",
+        "text": "91 20 4505 3237",
+        "start": 90,
+        "end": 105,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "E-mail: cs.connect@kshinternational.com; Website: www.kshinternational.com",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "cs.connect@kshinternational.com",
+        "start": 8,
+        "end": 39,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Unless the context otherwise indicates, all references to “we”, “us”, “our”, “the Company”, and “our Company”, are references to KSH International Limited, a company incorporated on July 30, 1979 under the Companies Act, 1956 and having its Registered Office at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India and its Corporate Office at 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "Unless the context otherwise indicates, all references to “we”, “us”, “our”, “the Company”, and “our Company”, are references to KSH International Limited, a company incorporated on July 30, 1979 under the Companies Act, 1956 and having its Registered Office at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India and its Corporate Office at 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India.",
+        "start": 0,
+        "end": 487,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The restated financial information of our Company comprising the restated statements of assets and liabilities as on and for the three months period ended June 30, 2025 and for the years ended March 31, 2025, March 31, 2024 and March 31, 2023, the restated statements of profit and loss (including other comprehensive income), the restated statements of cash flow, the restated statements of changes in equity, the summary of material accounting policies and other explanatory information and other financial information, including the annexures, notes and schedules thereto, for the three-months period ended June 30, 2025, and for the years ended March 31, 2025, March 31, 2024 and March 31, 2023 Fiscals 2025, 2024 and 2023, prepared in terms of the requirements of Section 26 of Part I of Chapter III of the Companies Act, SEBI ICDR Regulations, the Guidance Note on Reports in Company Prospectuses (Revised 2019) issued by ICAI, as amended from time to time and the Indian Accounting Standards as specified under Section 133 of the Act and other accounting principles generally accepted in India.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "June 30, 2025",
+        "start": 155,
+        "end": 168,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "March 31, 2025",
+        "start": 193,
+        "end": 207,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "March 31, 2024",
+        "start": 209,
+        "end": 223,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "March 31, 2023",
+        "start": 228,
+        "end": 242,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "June 30, 2025",
+        "start": 610,
+        "end": 623,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "March 31, 2025",
+        "start": 649,
+        "end": 663,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "March 31, 2024",
+        "start": 665,
+        "end": 679,
+        "fp": true
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "March 31, 2023",
+        "start": 684,
+        "end": 698,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Unless stated otherwise, industry and market data used in this Red Herring Prospectus has been obtained or derived from the report titled “Industry Research Report on Magnet Winding Wires Market in India” dated November 26, 2025 (“CARE Report”), prepared by CARE Analytics and Advisory Private Limited (“CareEdge Research”), which has been prepared exclusively for the purpose of understanding the industry in connection with the Offer and commissioned and paid for by our Company, pursuant to the engagement letter dated December 2, 2024. The CARE Report is available on the website of our Company at the following weblink: https://kshinternational.com/investor-relations/industry-report/. Further, CareEdge Research, pursuant to their consent letter dated November 26, 2025 (“Letter”) has accorded their no objection and consent to use the CARE Report. CareEdge Research, pursuant to their Letter, has also confirmed that it is an independent agency and has no conflict of interest issuing the CARE Report, and confirmed that it is not related, either directly or indirectly, to our Company, our Directors, our Promoters (including the Promoter Selling Shareholders), our Key Managerial Personnel, our Senior Management, our Group Companies or the Book Running Lead Managers.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "November 26, 2025",
+        "start": 211,
+        "end": 228,
+        "fp": false
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 2, 2024",
+        "start": 522,
+        "end": 538,
+        "fp": false
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "November 26, 2025",
+        "start": 758,
+        "end": 775,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "11/3, 11/4 and 11/5 Village Birdewadi Chakan Taluka - Khed Pune – 410 501\nMaharashtra, India",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "11/3, 11/4 and 11/5 Village Birdewadi Chakan Taluka - Khed Pune – 410 501\nMaharashtra, India",
+        "start": 0,
+        "end": 92,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner Pune – 411 045\nMaharashtra, India",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner Pune – 411 045\nMaharashtra, India",
+        "start": 0,
+        "end": 97,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Sarthak Malvadkar Company Secretary and Compliance Officer",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Sarthak Malvadkar Company",
+        "start": 0,
+        "end": 25,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Sarthak Malvadkar Company Secretary and Compliance Officer",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Sarthak Malvadkar Company",
+        "start": 0,
+        "end": 25,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Email: cs.connect@kshinternational.com Telephone: + 91 20 45053237",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "cs.connect@kshinternational.com",
+        "start": 7,
+        "end": 38,
+        "fp": false
+      },
+      {
+        "pii_type": "PHONE",
+        "text": "91 20 45053237",
+        "start": 52,
+        "end": 66,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Email: cs.connect@kshinternational.com Telephone: + 91 20 45053237",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "cs.connect@kshinternational.com",
+        "start": 7,
+        "end": 38,
+        "fp": false
+      },
+      {
+        "pii_type": "PHONE",
+        "text": "91 20 45053237",
+        "start": 52,
+        "end": 66,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND\nWATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND\nWATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND\nWATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND\nWATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND\nWATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND\nWATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST FAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND\nWATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Kushal Subbayya Hegde",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Kushal Subbayya Hegde",
+        "start": 0,
+        "end": 21,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Pushpa Kushal Hegde",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Pushpa Kushal Hegde",
+        "start": 0,
+        "end": 19,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Rajesh Kushal Hegde",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Rajesh Kushal Hegde",
+        "start": 0,
+        "end": 19,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Rohit Kushal Hegde",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Rohit Kushal Hegde",
+        "start": 0,
+        "end": 18,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "*As certified by Kirtane & Pandit LLP, Chartered Accountants, our Statutory Auditors, by way of their certificate dated December 10, 2025. For further details, see “Summary of the Offer Document – Average cost of acquisition of Equity Shares by our Promoters and the Promoter Selling Shareholders” on page 26.\n#As adjusted for Split of Equity Shares and Bonus Issue.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 10, 2025",
+        "start": 120,
+        "end": 137,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "*As certified by Kirtane & Pandit LLP, Chartered Accountants, our Statutory Auditors, by way of their certificate dated December 10, 2025. For further details, see “Summary of the Offer Document – Average cost of acquisition of Equity Shares by our Promoters and the Promoter Selling Shareholders” on page 26.\n#As adjusted for Split of Equity Shares and Bonus Issue.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 10, 2025",
+        "start": 120,
+        "end": 137,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "*As certified by Kirtane & Pandit LLP, Chartered Accountants, our Statutory Auditors, by way of their certificate dated December 10, 2025. For further details, see “Summary of the Offer Document – Average cost of acquisition of Equity Shares by our Promoters and the Promoter Selling Shareholders” on page 26.\n#As adjusted for Split of Equity Shares and Bonus Issue.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 10, 2025",
+        "start": 120,
+        "end": 137,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "*As certified by Kirtane & Pandit LLP, Chartered Accountants, our Statutory Auditors, by way of their certificate dated December 10, 2025. For further details, see “Summary of the Offer Document – Average cost of acquisition of Equity Shares by our Promoters and the Promoter Selling Shareholders” on page 26.\n#As adjusted for Split of Equity Shares and Bonus Issue.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 10, 2025",
+        "start": 120,
+        "end": 137,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "*As certified by Kirtane & Pandit LLP, Chartered Accountants, our Statutory Auditors, by way of their certificate dated December 10, 2025. For further details, see “Summary of the Offer Document – Average cost of acquisition of Equity Shares by our Promoters and the Promoter Selling Shareholders” on page 26.\n#As adjusted for Split of Equity Shares and Bonus Issue.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 10, 2025",
+        "start": 120,
+        "end": 137,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "*As certified by Kirtane & Pandit LLP, Chartered Accountants, our Statutory Auditors, by way of their certificate dated December 10, 2025. For further details, see “Summary of the Offer Document – Average cost of acquisition of Equity Shares by our Promoters and the Promoter Selling Shareholders” on page 26.\n#As adjusted for Split of Equity Shares and Bonus Issue.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 10, 2025",
+        "start": 120,
+        "end": 137,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "*As certified by Kirtane & Pandit LLP, Chartered Accountants, our Statutory Auditors, by way of their certificate dated December 10, 2025. For further details, see “Summary of the Offer Document – Average cost of acquisition of Equity Shares by our Promoters and the Promoter Selling Shareholders” on page 26.\n#As adjusted for Split of Equity Shares and Bonus Issue.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 10, 2025",
+        "start": 120,
+        "end": 137,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offering of equity shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active an d/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 173,
+        "end": 632,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offering of equity shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active an d/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 173,
+        "end": 632,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offering of equity shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active an d/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 173,
+        "end": 632,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offering of equity shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active an d/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 173,
+        "end": 632,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offering of equity shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active an d/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 173,
+        "end": 632,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offering of equity shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active an d/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 173,
+        "end": 632,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offering of equity shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active an d/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Floor Price, Cap Price and Offer Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations) and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 173,
+        "end": 632,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "GENERAL RISKS",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RISKS",
+        "start": 8,
+        "end": 13,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "GENERAL RISKS",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RISKS",
+        "start": 8,
+        "end": 13,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "GENERAL RISKS",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RISKS",
+        "start": 8,
+        "end": 13,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "GENERAL RISKS",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RISKS",
+        "start": 8,
+        "end": 13,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "GENERAL RISKS",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RISKS",
+        "start": 8,
+        "end": 13,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "GENERAL RISKS",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RISKS",
+        "start": 8,
+        "end": 13,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "GENERAL RISKS",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RISKS",
+        "start": 8,
+        "end": 13,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Email: ksh.ipo@nuvama.com\nTelephone: +91 22 4009 4400",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Email",
+        "start": 0,
+        "end": 5,
+        "fp": false
+      },
+      {
+        "pii_type": "EMAIL",
+        "text": "ksh.ipo@nuvama.com",
+        "start": 7,
+        "end": 25,
+        "fp": false
+      },
+      {
+        "pii_type": "PHONE",
+        "text": "+91 22 4009 4400",
+        "start": 37,
+        "end": 53,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Email: ksh.ipo@nuvama.com\nTelephone: +91 22 4009 4400",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Email",
+        "start": 0,
+        "end": 5,
+        "fp": false
+      },
+      {
+        "pii_type": "EMAIL",
+        "text": "ksh.ipo@nuvama.com",
+        "start": 7,
+        "end": 25,
+        "fp": false
+      },
+      {
+        "pii_type": "PHONE",
+        "text": "+91 22 4009 4400",
+        "start": 37,
+        "end": 53,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Email: ksh@icicisecurities.com\nTelephone: +91 22 6807 7100",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "ksh@icicisecurities.com",
+        "start": 7,
+        "end": 30,
+        "fp": false
+      },
+      {
+        "pii_type": "PHONE",
+        "text": "+91 22 6807 7100",
+        "start": 42,
+        "end": 58,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Email: ksh@icicisecurities.com\nTelephone: +91 22 6807 7100",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "ksh@icicisecurities.com",
+        "start": 7,
+        "end": 30,
+        "fp": false
+      },
+      {
+        "pii_type": "PHONE",
+        "text": "+91 22 6807 7100",
+        "start": 42,
+        "end": 58,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Shanti Gopalkrishnan",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Shanti Gopalkrishnan",
+        "start": 0,
+        "end": 20,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Shanti Gopalkrishnan",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Shanti Gopalkrishnan",
+        "start": 0,
+        "end": 20,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Telephone: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "kshinternational.ipo@in.mpms.mufg.com",
+        "start": 35,
+        "end": 72,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Telephone: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "kshinternational.ipo@in.mpms.mufg.com",
+        "start": 35,
+        "end": 72,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Telephone: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "kshinternational.ipo@in.mpms.mufg.com",
+        "start": 35,
+        "end": 72,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Telephone: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "kshinternational.ipo@in.mpms.mufg.com",
+        "start": 35,
+        "end": 72,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Telephone: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "kshinternational.ipo@in.mpms.mufg.com",
+        "start": 35,
+        "end": 72,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Telephone: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com",
+    "detections": [
+      {
+        "pii_type": "EMAIL",
+        "text": "kshinternational.ipo@in.mpms.mufg.com",
+        "start": 35,
+        "end": 72,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Monday, December 15,\n2025",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 15,\n2025",
+        "start": 8,
+        "end": 25,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Tuesday, December\n16, 2025",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December\n16, 2025",
+        "start": 9,
+        "end": 26,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Thursday, December 18, 2025",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 18, 2025",
+        "start": 10,
+        "end": 27,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST\nFAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST\nFAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST\nFAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST\nFAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST\nFAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST\nFAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST\nFAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "OUR PROMOTERS: KUSHAL SUBBAYYA HEGDE, PUSHPA KUSHAL HEGDE, RAJESH KUSHAL HEGDE, ROHIT KUSHAL HEGDE, RAKHI GIRIJA SHETTY, DHAULAGIRI FAMILY TRUST, EVEREST\nFAMILY TRUST, MAKALU FAMILY TRUST, BROAD FAMILY TRUST, ANNAPURNA FAMILY TRUST, KANCHENJUNGA FAMILY TRUST AND WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL SUBBAYYA HEGDE",
+        "start": 15,
+        "end": 36,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "PUSHPA KUSHAL HEGDE",
+        "start": 38,
+        "end": 57,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 59,
+        "end": 78,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 86,
+        "end": 98,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "INITIAL PUBLIC OFFERING OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF KSH INTERNATIONAL LIMITED (“COMPANY” OR “ISSUER”) FOR CASH AT A PRICE OF ₹[●] PER EQUITY SHARE (INCLUDING A SHARE PREMIUM OF ₹[●] PER EQUITY SHARE) (“OFFER PRICE”) AGGREGATING UP TO ₹7,100.00 MILLION (THE “OFFER”) COMPRISING A FRESH ISSUE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING UP TO ₹4,200.00 MILLION (“FRESH ISSUE”) AND AN OFFER FOR SALE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹[●] EACH (“OFFERED SHARES”) AGGREGATING UP TO ₹2,900.00 MILLION, COMPRISING UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY KUSHAL SUBBAYYA HEGDE AGGREGATING UP TO ₹1,528.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY PUSHPA KUSHAL HEGDE AGGREGATING UP TO ₹422.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY RAJESH KUSHAL HEGDE AGGREGATING UP TO ₹475.00 MILLION AND UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY ROHIT KUSHAL HEGDE AGGREGATING UP TO\n₹475.00 MILLION (COLLECTIVELY, “PROMOTER SELLING SHAREHOLDERS” AND SUCH OFFER FOR SALE OF EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY THE PROMOTER SELLING SHAREHOLDERS, THE “OFFER FOR SALE”). THE OFFER SHALL CONSTITUTE [●]% OF THE POST-OFFER PAID UP EQUITY SHARE CAPITAL OF OUR COMPANY.\nTHE FACE VALUE OF THE EQUITY SHARES IS ₹5 EACH. THE OFFER PRICE IS [●] TIMES THE FACE VALUE OF THE EQUITY SHARES. THE PRICE BAND, AND MINIMUM BID LOT WILL BE DECIDED BY OUR COMPANY, IN CONSULTATION WITH THE BOOK RUNNING LEAD MANAGERS, AND WILL BE ADVERTISED IN ALL EDITIONS OF FINANCIAL EXPRESS (A WIDELY CIRCULATED ENGLISH NATIONAL DAILY NEWSPAPER), ALL EDITIONS OF JANSATTA (A WIDELY CIRCULATED HINDI NATIONAL DAILY NEWSPAPER) AND PUNE EDITION OF LOKSATTA (A WIDELY CIRCULATED MARATHI DAILY NEWSPAPER, MARATHI BEING THE REGIONAL LANGUAGE OF MAHARASHTRA WHERE OUR REGISTERED OFFICE IS LOCATED), AT LEAST TWO WORKING DAYS PRIOR TO THE BID/OFFER OPENING DATE AND SHALL BE MADE AVAILABLE TO THE STOCK EXCHANGES FOR UPLOADING ON THEIR RESPECTIVE WEBSITES IN ACCORDANCE WITH SECURITIES AND\nEXCHANGE BOARD OF INDIA (ISSUE OF CAPITAL AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2018, AS AMENDED (THE “SEBI ICDR REGULATIONS”).",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 853,
+        "end": 872,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 969,
+        "end": 981,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "WIDELY CIRCULATED MARATHI DAILY NEWSPAPER",
+        "start": 1746,
+        "end": 1787,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "INITIAL PUBLIC OFFERING OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF KSH INTERNATIONAL LIMITED (“COMPANY” OR “ISSUER”) FOR CASH AT A PRICE OF ₹[●] PER EQUITY SHARE (INCLUDING A SHARE PREMIUM OF ₹[●] PER EQUITY SHARE) (“OFFER PRICE”) AGGREGATING UP TO ₹7,100.00 MILLION (THE “OFFER”) COMPRISING A FRESH ISSUE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING UP TO ₹4,200.00 MILLION (“FRESH ISSUE”) AND AN OFFER FOR SALE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹[●] EACH (“OFFERED SHARES”) AGGREGATING UP TO ₹2,900.00 MILLION, COMPRISING UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY KUSHAL SUBBAYYA HEGDE AGGREGATING UP TO ₹1,528.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY PUSHPA KUSHAL HEGDE AGGREGATING UP TO ₹422.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY RAJESH KUSHAL HEGDE AGGREGATING UP TO ₹475.00 MILLION AND UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY ROHIT KUSHAL HEGDE AGGREGATING UP TO\n₹475.00 MILLION (COLLECTIVELY, “PROMOTER SELLING SHAREHOLDERS” AND SUCH OFFER FOR SALE OF EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY THE PROMOTER SELLING SHAREHOLDERS, THE “OFFER FOR SALE”). THE OFFER SHALL CONSTITUTE [●]% OF THE POST-OFFER PAID UP EQUITY SHARE CAPITAL OF OUR COMPANY.\nTHE FACE VALUE OF THE EQUITY SHARES IS ₹5 EACH. THE OFFER PRICE IS [●] TIMES THE FACE VALUE OF THE EQUITY SHARES. THE PRICE BAND, AND MINIMUM BID LOT WILL BE DECIDED BY OUR COMPANY, IN CONSULTATION WITH THE BOOK RUNNING LEAD MANAGERS, AND WILL BE ADVERTISED IN ALL EDITIONS OF FINANCIAL EXPRESS (A WIDELY CIRCULATED ENGLISH NATIONAL DAILY NEWSPAPER), ALL EDITIONS OF JANSATTA (A WIDELY CIRCULATED HINDI NATIONAL DAILY NEWSPAPER) AND PUNE EDITION OF LOKSATTA (A WIDELY CIRCULATED MARATHI DAILY NEWSPAPER, MARATHI BEING THE REGIONAL LANGUAGE OF MAHARASHTRA WHERE OUR REGISTERED OFFICE IS LOCATED), AT LEAST TWO WORKING DAYS PRIOR TO THE BID/OFFER OPENING DATE AND SHALL BE MADE AVAILABLE TO THE STOCK EXCHANGES FOR UPLOADING ON THEIR RESPECTIVE WEBSITES IN ACCORDANCE WITH SECURITIES AND\nEXCHANGE BOARD OF INDIA (ISSUE OF CAPITAL AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2018, AS AMENDED (THE “SEBI ICDR REGULATIONS”).",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 853,
+        "end": 872,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 969,
+        "end": 981,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "WIDELY CIRCULATED MARATHI DAILY NEWSPAPER",
+        "start": 1746,
+        "end": 1787,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "INITIAL PUBLIC OFFERING OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF KSH INTERNATIONAL LIMITED (“COMPANY” OR “ISSUER”) FOR CASH AT A PRICE OF ₹[●] PER EQUITY SHARE (INCLUDING A SHARE PREMIUM OF ₹[●] PER EQUITY SHARE) (“OFFER PRICE”) AGGREGATING UP TO ₹7,100.00 MILLION (THE “OFFER”) COMPRISING A FRESH ISSUE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING UP TO ₹4,200.00 MILLION (“FRESH ISSUE”) AND AN OFFER FOR SALE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹[●] EACH (“OFFERED SHARES”) AGGREGATING UP TO ₹2,900.00 MILLION, COMPRISING UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY KUSHAL SUBBAYYA HEGDE AGGREGATING UP TO ₹1,528.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY PUSHPA KUSHAL HEGDE AGGREGATING UP TO ₹422.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY RAJESH KUSHAL HEGDE AGGREGATING UP TO ₹475.00 MILLION AND UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY ROHIT KUSHAL HEGDE AGGREGATING UP TO\n₹475.00 MILLION (COLLECTIVELY, “PROMOTER SELLING SHAREHOLDERS” AND SUCH OFFER FOR SALE OF EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY THE PROMOTER SELLING SHAREHOLDERS, THE “OFFER FOR SALE”). THE OFFER SHALL CONSTITUTE [●]% OF THE POST-OFFER PAID UP EQUITY SHARE CAPITAL OF OUR COMPANY.\nTHE FACE VALUE OF THE EQUITY SHARES IS ₹5 EACH. THE OFFER PRICE IS [●] TIMES THE FACE VALUE OF THE EQUITY SHARES. THE PRICE BAND, AND MINIMUM BID LOT WILL BE DECIDED BY OUR COMPANY, IN CONSULTATION WITH THE BOOK RUNNING LEAD MANAGERS, AND WILL BE ADVERTISED IN ALL EDITIONS OF FINANCIAL EXPRESS (A WIDELY CIRCULATED ENGLISH NATIONAL DAILY NEWSPAPER), ALL EDITIONS OF JANSATTA (A WIDELY CIRCULATED HINDI NATIONAL DAILY NEWSPAPER) AND PUNE EDITION OF LOKSATTA (A WIDELY CIRCULATED MARATHI DAILY NEWSPAPER, MARATHI BEING THE REGIONAL LANGUAGE OF MAHARASHTRA WHERE OUR REGISTERED OFFICE IS LOCATED), AT LEAST TWO WORKING DAYS PRIOR TO THE BID/OFFER OPENING DATE AND SHALL BE MADE AVAILABLE TO THE STOCK EXCHANGES FOR UPLOADING ON THEIR RESPECTIVE WEBSITES IN ACCORDANCE WITH SECURITIES AND\nEXCHANGE BOARD OF INDIA (ISSUE OF CAPITAL AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2018, AS AMENDED (THE “SEBI ICDR REGULATIONS”).",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 853,
+        "end": 872,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 969,
+        "end": 981,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "WIDELY CIRCULATED MARATHI DAILY NEWSPAPER",
+        "start": 1746,
+        "end": 1787,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "INITIAL PUBLIC OFFERING OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF KSH INTERNATIONAL LIMITED (“COMPANY” OR “ISSUER”) FOR CASH AT A PRICE OF ₹[●] PER EQUITY SHARE (INCLUDING A SHARE PREMIUM OF ₹[●] PER EQUITY SHARE) (“OFFER PRICE”) AGGREGATING UP TO ₹7,100.00 MILLION (THE “OFFER”) COMPRISING A FRESH ISSUE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING UP TO ₹4,200.00 MILLION (“FRESH ISSUE”) AND AN OFFER FOR SALE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹[●] EACH (“OFFERED SHARES”) AGGREGATING UP TO ₹2,900.00 MILLION, COMPRISING UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY KUSHAL SUBBAYYA HEGDE AGGREGATING UP TO ₹1,528.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY PUSHPA KUSHAL HEGDE AGGREGATING UP TO ₹422.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY RAJESH KUSHAL HEGDE AGGREGATING UP TO ₹475.00 MILLION AND UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY ROHIT KUSHAL HEGDE AGGREGATING UP TO\n₹475.00 MILLION (COLLECTIVELY, “PROMOTER SELLING SHAREHOLDERS” AND SUCH OFFER FOR SALE OF EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY THE PROMOTER SELLING SHAREHOLDERS, THE “OFFER FOR SALE”). THE OFFER SHALL CONSTITUTE [●]% OF THE POST-OFFER PAID UP EQUITY SHARE CAPITAL OF OUR COMPANY.\nTHE FACE VALUE OF THE EQUITY SHARES IS ₹5 EACH. THE OFFER PRICE IS [●] TIMES THE FACE VALUE OF THE EQUITY SHARES. THE PRICE BAND, AND MINIMUM BID LOT WILL BE DECIDED BY OUR COMPANY, IN CONSULTATION WITH THE BOOK RUNNING LEAD MANAGERS, AND WILL BE ADVERTISED IN ALL EDITIONS OF FINANCIAL EXPRESS (A WIDELY CIRCULATED ENGLISH NATIONAL DAILY NEWSPAPER), ALL EDITIONS OF JANSATTA (A WIDELY CIRCULATED HINDI NATIONAL DAILY NEWSPAPER) AND PUNE EDITION OF LOKSATTA (A WIDELY CIRCULATED MARATHI DAILY NEWSPAPER, MARATHI BEING THE REGIONAL LANGUAGE OF MAHARASHTRA WHERE OUR REGISTERED OFFICE IS LOCATED), AT LEAST TWO WORKING DAYS PRIOR TO THE BID/OFFER OPENING DATE AND SHALL BE MADE AVAILABLE TO THE STOCK EXCHANGES FOR UPLOADING ON THEIR RESPECTIVE WEBSITES IN ACCORDANCE WITH SECURITIES AND\nEXCHANGE BOARD OF INDIA (ISSUE OF CAPITAL AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2018, AS AMENDED (THE “SEBI ICDR REGULATIONS”).",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 853,
+        "end": 872,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 969,
+        "end": 981,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "WIDELY CIRCULATED MARATHI DAILY NEWSPAPER",
+        "start": 1746,
+        "end": 1787,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "INITIAL PUBLIC OFFERING OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF KSH INTERNATIONAL LIMITED (“COMPANY” OR “ISSUER”) FOR CASH AT A PRICE OF ₹[●] PER EQUITY SHARE (INCLUDING A SHARE PREMIUM OF ₹[●] PER EQUITY SHARE) (“OFFER PRICE”) AGGREGATING UP TO ₹7,100.00 MILLION (THE “OFFER”) COMPRISING A FRESH ISSUE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING UP TO ₹4,200.00 MILLION (“FRESH ISSUE”) AND AN OFFER FOR SALE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹[●] EACH (“OFFERED SHARES”) AGGREGATING UP TO ₹2,900.00 MILLION, COMPRISING UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY KUSHAL SUBBAYYA HEGDE AGGREGATING UP TO ₹1,528.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY PUSHPA KUSHAL HEGDE AGGREGATING UP TO ₹422.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY RAJESH KUSHAL HEGDE AGGREGATING UP TO ₹475.00 MILLION AND UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY ROHIT KUSHAL HEGDE AGGREGATING UP TO\n₹475.00 MILLION (COLLECTIVELY, “PROMOTER SELLING SHAREHOLDERS” AND SUCH OFFER FOR SALE OF EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY THE PROMOTER SELLING SHAREHOLDERS, THE “OFFER FOR SALE”). THE OFFER SHALL CONSTITUTE [●]% OF THE POST-OFFER PAID UP EQUITY SHARE CAPITAL OF OUR COMPANY.\nTHE FACE VALUE OF THE EQUITY SHARES IS ₹5 EACH. THE OFFER PRICE IS [●] TIMES THE FACE VALUE OF THE EQUITY SHARES. THE PRICE BAND, AND MINIMUM BID LOT WILL BE DECIDED BY OUR COMPANY, IN CONSULTATION WITH THE BOOK RUNNING LEAD MANAGERS, AND WILL BE ADVERTISED IN ALL EDITIONS OF FINANCIAL EXPRESS (A WIDELY CIRCULATED ENGLISH NATIONAL DAILY NEWSPAPER), ALL EDITIONS OF JANSATTA (A WIDELY CIRCULATED HINDI NATIONAL DAILY NEWSPAPER) AND PUNE EDITION OF LOKSATTA (A WIDELY CIRCULATED MARATHI DAILY NEWSPAPER, MARATHI BEING THE REGIONAL LANGUAGE OF MAHARASHTRA WHERE OUR REGISTERED OFFICE IS LOCATED), AT LEAST TWO WORKING DAYS PRIOR TO THE BID/OFFER OPENING DATE AND SHALL BE MADE AVAILABLE TO THE STOCK EXCHANGES FOR UPLOADING ON THEIR RESPECTIVE WEBSITES IN ACCORDANCE WITH SECURITIES AND\nEXCHANGE BOARD OF INDIA (ISSUE OF CAPITAL AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2018, AS AMENDED (THE “SEBI ICDR REGULATIONS”).",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 853,
+        "end": 872,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 969,
+        "end": 981,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "WIDELY CIRCULATED MARATHI DAILY NEWSPAPER",
+        "start": 1746,
+        "end": 1787,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "INITIAL PUBLIC OFFERING OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF KSH INTERNATIONAL LIMITED (“COMPANY” OR “ISSUER”) FOR CASH AT A PRICE OF ₹[●] PER EQUITY SHARE (INCLUDING A SHARE PREMIUM OF ₹[●] PER EQUITY SHARE) (“OFFER PRICE”) AGGREGATING UP TO ₹7,100.00 MILLION (THE “OFFER”) COMPRISING A FRESH ISSUE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING UP TO ₹4,200.00 MILLION (“FRESH ISSUE”) AND AN OFFER FOR SALE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹[●] EACH (“OFFERED SHARES”) AGGREGATING UP TO ₹2,900.00 MILLION, COMPRISING UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY KUSHAL SUBBAYYA HEGDE AGGREGATING UP TO ₹1,528.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY PUSHPA KUSHAL HEGDE AGGREGATING UP TO ₹422.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY RAJESH KUSHAL HEGDE AGGREGATING UP TO ₹475.00 MILLION AND UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY ROHIT KUSHAL HEGDE AGGREGATING UP TO\n₹475.00 MILLION (COLLECTIVELY, “PROMOTER SELLING SHAREHOLDERS” AND SUCH OFFER FOR SALE OF EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY THE PROMOTER SELLING SHAREHOLDERS, THE “OFFER FOR SALE”). THE OFFER SHALL CONSTITUTE [●]% OF THE POST-OFFER PAID UP EQUITY SHARE CAPITAL OF OUR COMPANY.\nTHE FACE VALUE OF THE EQUITY SHARES IS ₹5 EACH. THE OFFER PRICE IS [●] TIMES THE FACE VALUE OF THE EQUITY SHARES. THE PRICE BAND, AND MINIMUM BID LOT WILL BE DECIDED BY OUR COMPANY, IN CONSULTATION WITH THE BOOK RUNNING LEAD MANAGERS, AND WILL BE ADVERTISED IN ALL EDITIONS OF FINANCIAL EXPRESS (A WIDELY CIRCULATED ENGLISH NATIONAL DAILY NEWSPAPER), ALL EDITIONS OF JANSATTA (A WIDELY CIRCULATED HINDI NATIONAL DAILY NEWSPAPER) AND PUNE EDITION OF LOKSATTA (A WIDELY CIRCULATED MARATHI DAILY NEWSPAPER, MARATHI BEING THE REGIONAL LANGUAGE OF MAHARASHTRA WHERE OUR REGISTERED OFFICE IS LOCATED), AT LEAST TWO WORKING DAYS PRIOR TO THE BID/OFFER OPENING DATE AND SHALL BE MADE AVAILABLE TO THE STOCK EXCHANGES FOR UPLOADING ON THEIR RESPECTIVE WEBSITES IN ACCORDANCE WITH SECURITIES AND\nEXCHANGE BOARD OF INDIA (ISSUE OF CAPITAL AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2018, AS AMENDED (THE “SEBI ICDR REGULATIONS”).",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 853,
+        "end": 872,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 969,
+        "end": 981,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "WIDELY CIRCULATED MARATHI DAILY NEWSPAPER",
+        "start": 1746,
+        "end": 1787,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "INITIAL PUBLIC OFFERING OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF KSH INTERNATIONAL LIMITED (“COMPANY” OR “ISSUER”) FOR CASH AT A PRICE OF ₹[●] PER EQUITY SHARE (INCLUDING A SHARE PREMIUM OF ₹[●] PER EQUITY SHARE) (“OFFER PRICE”) AGGREGATING UP TO ₹7,100.00 MILLION (THE “OFFER”) COMPRISING A FRESH ISSUE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING UP TO ₹4,200.00 MILLION (“FRESH ISSUE”) AND AN OFFER FOR SALE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹[●] EACH (“OFFERED SHARES”) AGGREGATING UP TO ₹2,900.00 MILLION, COMPRISING UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY KUSHAL SUBBAYYA HEGDE AGGREGATING UP TO ₹1,528.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY PUSHPA KUSHAL HEGDE AGGREGATING UP TO ₹422.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY RAJESH KUSHAL HEGDE AGGREGATING UP TO ₹475.00 MILLION AND UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY ROHIT KUSHAL HEGDE AGGREGATING UP TO\n₹475.00 MILLION (COLLECTIVELY, “PROMOTER SELLING SHAREHOLDERS” AND SUCH OFFER FOR SALE OF EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY THE PROMOTER SELLING SHAREHOLDERS, THE “OFFER FOR SALE”). THE OFFER SHALL CONSTITUTE [●]% OF THE POST-OFFER PAID UP EQUITY SHARE CAPITAL OF OUR COMPANY.\nTHE FACE VALUE OF THE EQUITY SHARES IS ₹5 EACH. THE OFFER PRICE IS [●] TIMES THE FACE VALUE OF THE EQUITY SHARES. THE PRICE BAND, AND MINIMUM BID LOT WILL BE DECIDED BY OUR COMPANY, IN CONSULTATION WITH THE BOOK RUNNING LEAD MANAGERS, AND WILL BE ADVERTISED IN ALL EDITIONS OF FINANCIAL EXPRESS (A WIDELY CIRCULATED ENGLISH NATIONAL DAILY NEWSPAPER), ALL EDITIONS OF JANSATTA (A WIDELY CIRCULATED HINDI NATIONAL DAILY NEWSPAPER) AND PUNE EDITION OF LOKSATTA (A WIDELY CIRCULATED MARATHI DAILY NEWSPAPER, MARATHI BEING THE REGIONAL LANGUAGE OF MAHARASHTRA WHERE OUR REGISTERED OFFICE IS LOCATED), AT LEAST TWO WORKING DAYS PRIOR TO THE BID/OFFER OPENING DATE AND SHALL BE MADE AVAILABLE TO THE STOCK EXCHANGES FOR UPLOADING ON THEIR RESPECTIVE WEBSITES IN ACCORDANCE WITH SECURITIES AND\nEXCHANGE BOARD OF INDIA (ISSUE OF CAPITAL AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2018, AS AMENDED (THE “SEBI ICDR REGULATIONS”).",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 853,
+        "end": 872,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 969,
+        "end": 981,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "WIDELY CIRCULATED MARATHI DAILY NEWSPAPER",
+        "start": 1746,
+        "end": 1787,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "INITIAL PUBLIC OFFERING OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH (“EQUITY SHARES”) OF KSH INTERNATIONAL LIMITED (“COMPANY” OR “ISSUER”) FOR CASH AT A PRICE OF ₹[●] PER EQUITY SHARE (INCLUDING A SHARE PREMIUM OF ₹[●] PER EQUITY SHARE) (“OFFER PRICE”) AGGREGATING UP TO ₹7,100.00 MILLION (THE “OFFER”) COMPRISING A FRESH ISSUE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH AGGREGATING UP TO ₹4,200.00 MILLION (“FRESH ISSUE”) AND AN OFFER FOR SALE OF UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹[●] EACH (“OFFERED SHARES”) AGGREGATING UP TO ₹2,900.00 MILLION, COMPRISING UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY KUSHAL SUBBAYYA HEGDE AGGREGATING UP TO ₹1,528.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY PUSHPA KUSHAL HEGDE AGGREGATING UP TO ₹422.00 MILLION, UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY RAJESH KUSHAL HEGDE AGGREGATING UP TO ₹475.00 MILLION AND UP TO [●] EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY ROHIT KUSHAL HEGDE AGGREGATING UP TO\n₹475.00 MILLION (COLLECTIVELY, “PROMOTER SELLING SHAREHOLDERS” AND SUCH OFFER FOR SALE OF EQUITY SHARES OF FACE VALUE OF ₹5 EACH BY THE PROMOTER SELLING SHAREHOLDERS, THE “OFFER FOR SALE”). THE OFFER SHALL CONSTITUTE [●]% OF THE POST-OFFER PAID UP EQUITY SHARE CAPITAL OF OUR COMPANY.\nTHE FACE VALUE OF THE EQUITY SHARES IS ₹5 EACH. THE OFFER PRICE IS [●] TIMES THE FACE VALUE OF THE EQUITY SHARES. THE PRICE BAND, AND MINIMUM BID LOT WILL BE DECIDED BY OUR COMPANY, IN CONSULTATION WITH THE BOOK RUNNING LEAD MANAGERS, AND WILL BE ADVERTISED IN ALL EDITIONS OF FINANCIAL EXPRESS (A WIDELY CIRCULATED ENGLISH NATIONAL DAILY NEWSPAPER), ALL EDITIONS OF JANSATTA (A WIDELY CIRCULATED HINDI NATIONAL DAILY NEWSPAPER) AND PUNE EDITION OF LOKSATTA (A WIDELY CIRCULATED MARATHI DAILY NEWSPAPER, MARATHI BEING THE REGIONAL LANGUAGE OF MAHARASHTRA WHERE OUR REGISTERED OFFICE IS LOCATED), AT LEAST TWO WORKING DAYS PRIOR TO THE BID/OFFER OPENING DATE AND SHALL BE MADE AVAILABLE TO THE STOCK EXCHANGES FOR UPLOADING ON THEIR RESPECTIVE WEBSITES IN ACCORDANCE WITH SECURITIES AND\nEXCHANGE BOARD OF INDIA (ISSUE OF CAPITAL AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2018, AS AMENDED (THE “SEBI ICDR REGULATIONS”).",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "RAJESH KUSHAL HEGDE",
+        "start": 853,
+        "end": 872,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "KUSHAL HEGDE",
+        "start": 969,
+        "end": 981,
+        "fp": false
+      },
+      {
+        "pii_type": "PERSON",
+        "text": "WIDELY CIRCULATED MARATHI DAILY NEWSPAPER",
+        "start": 1746,
+        "end": 1787,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Offer is being made in terms of Rule 19(2)(b) of the Securities Contracts (Regulation) Rules, 1957, as amended (the “SCRR”), read with Regulation 31 of the SEBI ICDR Regulations. The Offer is being made through the Book Building Process in accordance with Regulation 6(1) of the SEBI ICDR Regulations wherein not more than 50% of the Offer shall be available for allocation on a proportionate basis to Qualified Institutional Buyers (“QIBs”) (the “QIB Portion”), provided that our Company may, in consultation with the BRLMs, allocate up to 60% of the QIB Portion to Anchor Investors on a discretionary basis, in accordance with the SEBI ICDR Regulations (the “Anchor Investor Portion”), of which 40% shall be reserved in the following manner (i) 33.33% of the Anchor Investor Portion shall be reserved for domestic Mutual Funds; and (ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations. In the event of under-subscription or non-allocation in the Anchor Investor Portion, the balance Equity Shares shall be added to the QIB Portion (other than the Anchor Investor Portion) (the “Net QIB Portion”). Further, 5% of the Net QIB Portion shall be available for allocation on a proportionate basis to Mutual Funds only, subject to valid Bids being received at or above the Offer Price, and the remainder of the Net QIB Portion shall be available for allocation on a proportionate basis to all QIBs, including Mutual Funds, subject to valid Bids being received at or above the Offer Price. Further, not less than 15% of the Offer shall be available for allocation to Non-Institutional Investors (“Non-Institutional Portion”) of which one-third of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹0.20 million and up to ₹1.00 million and two-thirds of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹1.00 million and undersubscription in either of these two sub-categories of the Non-Institutional Portion may be allocated to Bidders in the other sub-category of the Non-Institutional Portion in accordance with the SEBI ICDR Regulations, subject to valid Bids being received at or above the Offer Price. Further, not less than 35% of the Offer shall be available for allocation to Retail Individual Investors (“Retail Portion”), in accordance with the SEBI ICDR Regulations, subject to valid Bids being received from them at or above the Offer Price. All Bidders (except Anchor Investors) shall mandatorily participate in this Offer only through the Application Supported by Blocked Amount (“ASBA”)\nprocess and shall provide details of their respective bank account (including UPI ID (defined hereinafter) in case of UPI Bidders (defined hereinafter) in which the Bid Amount will be blocked by the Self Certified Syndicate Banks (“SCSBs”) or pursuant to the UPI Mechanism, as the case may be. Anchor Investors are not permitted to participate in the Anchor Investor Portion through the ASBA process. For details, see “Offer Procedure” on page 420.",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Mutual Funds",
+        "start": 1255,
+        "end": 1267,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Offer is being made in terms of Rule 19(2)(b) of the Securities Contracts (Regulation) Rules, 1957, as amended (the “SCRR”), read with Regulation 31 of the SEBI ICDR Regulations. The Offer is being made through the Book Building Process in accordance with Regulation 6(1) of the SEBI ICDR Regulations wherein not more than 50% of the Offer shall be available for allocation on a proportionate basis to Qualified Institutional Buyers (“QIBs”) (the “QIB Portion”), provided that our Company may, in consultation with the BRLMs, allocate up to 60% of the QIB Portion to Anchor Investors on a discretionary basis, in accordance with the SEBI ICDR Regulations (the “Anchor Investor Portion”), of which 40% shall be reserved in the following manner (i) 33.33% of the Anchor Investor Portion shall be reserved for domestic Mutual Funds; and (ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations. In the event of under-subscription or non-allocation in the Anchor Investor Portion, the balance Equity Shares shall be added to the QIB Portion (other than the Anchor Investor Portion) (the “Net QIB Portion”). Further, 5% of the Net QIB Portion shall be available for allocation on a proportionate basis to Mutual Funds only, subject to valid Bids being received at or above the Offer Price, and the remainder of the Net QIB Portion shall be available for allocation on a proportionate basis to all QIBs, including Mutual Funds, subject to valid Bids being received at or above the Offer Price. Further, not less than 15% of the Offer shall be available for allocation to Non-Institutional Investors (“Non-Institutional Portion”) of which one-third of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹0.20 million and up to ₹1.00 million and two-thirds of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹1.00 million and undersubscription in either of these two sub-categories of the Non-Institutional Portion may be allocated to Bidders in the other sub-category of the Non-Institutional Portion in accordance with the SEBI ICDR Regulations, subject to valid Bids being received at or above the Offer Price. Further, not less than 35% of the Offer shall be available for allocation to Retail Individual Investors (“Retail Portion”), in accordance with the SEBI ICDR Regulations, subject to valid Bids being received from them at or above the Offer Price. All Bidders (except Anchor Investors) shall mandatorily participate in this Offer only through the Application Supported by Blocked Amount (“ASBA”)\nprocess and shall provide details of their respective bank account (including UPI ID (defined hereinafter) in case of UPI Bidders (defined hereinafter) in which the Bid Amount will be blocked by the Self Certified Syndicate Banks (“SCSBs”) or pursuant to the UPI Mechanism, as the case may be. Anchor Investors are not permitted to participate in the Anchor Investor Portion through the ASBA process. For details, see “Offer Procedure” on page 420.",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Mutual Funds",
+        "start": 1255,
+        "end": 1267,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Offer is being made in terms of Rule 19(2)(b) of the Securities Contracts (Regulation) Rules, 1957, as amended (the “SCRR”), read with Regulation 31 of the SEBI ICDR Regulations. The Offer is being made through the Book Building Process in accordance with Regulation 6(1) of the SEBI ICDR Regulations wherein not more than 50% of the Offer shall be available for allocation on a proportionate basis to Qualified Institutional Buyers (“QIBs”) (the “QIB Portion”), provided that our Company may, in consultation with the BRLMs, allocate up to 60% of the QIB Portion to Anchor Investors on a discretionary basis, in accordance with the SEBI ICDR Regulations (the “Anchor Investor Portion”), of which 40% shall be reserved in the following manner (i) 33.33% of the Anchor Investor Portion shall be reserved for domestic Mutual Funds; and (ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations. In the event of under-subscription or non-allocation in the Anchor Investor Portion, the balance Equity Shares shall be added to the QIB Portion (other than the Anchor Investor Portion) (the “Net QIB Portion”). Further, 5% of the Net QIB Portion shall be available for allocation on a proportionate basis to Mutual Funds only, subject to valid Bids being received at or above the Offer Price, and the remainder of the Net QIB Portion shall be available for allocation on a proportionate basis to all QIBs, including Mutual Funds, subject to valid Bids being received at or above the Offer Price. Further, not less than 15% of the Offer shall be available for allocation to Non-Institutional Investors (“Non-Institutional Portion”) of which one-third of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹0.20 million and up to ₹1.00 million and two-thirds of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹1.00 million and undersubscription in either of these two sub-categories of the Non-Institutional Portion may be allocated to Bidders in the other sub-category of the Non-Institutional Portion in accordance with the SEBI ICDR Regulations, subject to valid Bids being received at or above the Offer Price. Further, not less than 35% of the Offer shall be available for allocation to Retail Individual Investors (“Retail Portion”), in accordance with the SEBI ICDR Regulations, subject to valid Bids being received from them at or above the Offer Price. All Bidders (except Anchor Investors) shall mandatorily participate in this Offer only through the Application Supported by Blocked Amount (“ASBA”)\nprocess and shall provide details of their respective bank account (including UPI ID (defined hereinafter) in case of UPI Bidders (defined hereinafter) in which the Bid Amount will be blocked by the Self Certified Syndicate Banks (“SCSBs”) or pursuant to the UPI Mechanism, as the case may be. Anchor Investors are not permitted to participate in the Anchor Investor Portion through the ASBA process. For details, see “Offer Procedure” on page 420.",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Mutual Funds",
+        "start": 1255,
+        "end": 1267,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Offer is being made in terms of Rule 19(2)(b) of the Securities Contracts (Regulation) Rules, 1957, as amended (the “SCRR”), read with Regulation 31 of the SEBI ICDR Regulations. The Offer is being made through the Book Building Process in accordance with Regulation 6(1) of the SEBI ICDR Regulations wherein not more than 50% of the Offer shall be available for allocation on a proportionate basis to Qualified Institutional Buyers (“QIBs”) (the “QIB Portion”), provided that our Company may, in consultation with the BRLMs, allocate up to 60% of the QIB Portion to Anchor Investors on a discretionary basis, in accordance with the SEBI ICDR Regulations (the “Anchor Investor Portion”), of which 40% shall be reserved in the following manner (i) 33.33% of the Anchor Investor Portion shall be reserved for domestic Mutual Funds; and (ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations. In the event of under-subscription or non-allocation in the Anchor Investor Portion, the balance Equity Shares shall be added to the QIB Portion (other than the Anchor Investor Portion) (the “Net QIB Portion”). Further, 5% of the Net QIB Portion shall be available for allocation on a proportionate basis to Mutual Funds only, subject to valid Bids being received at or above the Offer Price, and the remainder of the Net QIB Portion shall be available for allocation on a proportionate basis to all QIBs, including Mutual Funds, subject to valid Bids being received at or above the Offer Price. Further, not less than 15% of the Offer shall be available for allocation to Non-Institutional Investors (“Non-Institutional Portion”) of which one-third of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹0.20 million and up to ₹1.00 million and two-thirds of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹1.00 million and undersubscription in either of these two sub-categories of the Non-Institutional Portion may be allocated to Bidders in the other sub-category of the Non-Institutional Portion in accordance with the SEBI ICDR Regulations, subject to valid Bids being received at or above the Offer Price. Further, not less than 35% of the Offer shall be available for allocation to Retail Individual Investors (“Retail Portion”), in accordance with the SEBI ICDR Regulations, subject to valid Bids being received from them at or above the Offer Price. All Bidders (except Anchor Investors) shall mandatorily participate in this Offer only through the Application Supported by Blocked Amount (“ASBA”)\nprocess and shall provide details of their respective bank account (including UPI ID (defined hereinafter) in case of UPI Bidders (defined hereinafter) in which the Bid Amount will be blocked by the Self Certified Syndicate Banks (“SCSBs”) or pursuant to the UPI Mechanism, as the case may be. Anchor Investors are not permitted to participate in the Anchor Investor Portion through the ASBA process. For details, see “Offer Procedure” on page 420.",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Mutual Funds",
+        "start": 1255,
+        "end": 1267,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Offer is being made in terms of Rule 19(2)(b) of the Securities Contracts (Regulation) Rules, 1957, as amended (the “SCRR”), read with Regulation 31 of the SEBI ICDR Regulations. The Offer is being made through the Book Building Process in accordance with Regulation 6(1) of the SEBI ICDR Regulations wherein not more than 50% of the Offer shall be available for allocation on a proportionate basis to Qualified Institutional Buyers (“QIBs”) (the “QIB Portion”), provided that our Company may, in consultation with the BRLMs, allocate up to 60% of the QIB Portion to Anchor Investors on a discretionary basis, in accordance with the SEBI ICDR Regulations (the “Anchor Investor Portion”), of which 40% shall be reserved in the following manner (i) 33.33% of the Anchor Investor Portion shall be reserved for domestic Mutual Funds; and (ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations. In the event of under-subscription or non-allocation in the Anchor Investor Portion, the balance Equity Shares shall be added to the QIB Portion (other than the Anchor Investor Portion) (the “Net QIB Portion”). Further, 5% of the Net QIB Portion shall be available for allocation on a proportionate basis to Mutual Funds only, subject to valid Bids being received at or above the Offer Price, and the remainder of the Net QIB Portion shall be available for allocation on a proportionate basis to all QIBs, including Mutual Funds, subject to valid Bids being received at or above the Offer Price. Further, not less than 15% of the Offer shall be available for allocation to Non-Institutional Investors (“Non-Institutional Portion”) of which one-third of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹0.20 million and up to ₹1.00 million and two-thirds of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹1.00 million and undersubscription in either of these two sub-categories of the Non-Institutional Portion may be allocated to Bidders in the other sub-category of the Non-Institutional Portion in accordance with the SEBI ICDR Regulations, subject to valid Bids being received at or above the Offer Price. Further, not less than 35% of the Offer shall be available for allocation to Retail Individual Investors (“Retail Portion”), in accordance with the SEBI ICDR Regulations, subject to valid Bids being received from them at or above the Offer Price. All Bidders (except Anchor Investors) shall mandatorily participate in this Offer only through the Application Supported by Blocked Amount (“ASBA”)\nprocess and shall provide details of their respective bank account (including UPI ID (defined hereinafter) in case of UPI Bidders (defined hereinafter) in which the Bid Amount will be blocked by the Self Certified Syndicate Banks (“SCSBs”) or pursuant to the UPI Mechanism, as the case may be. Anchor Investors are not permitted to participate in the Anchor Investor Portion through the ASBA process. For details, see “Offer Procedure” on page 420.",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Mutual Funds",
+        "start": 1255,
+        "end": 1267,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Offer is being made in terms of Rule 19(2)(b) of the Securities Contracts (Regulation) Rules, 1957, as amended (the “SCRR”), read with Regulation 31 of the SEBI ICDR Regulations. The Offer is being made through the Book Building Process in accordance with Regulation 6(1) of the SEBI ICDR Regulations wherein not more than 50% of the Offer shall be available for allocation on a proportionate basis to Qualified Institutional Buyers (“QIBs”) (the “QIB Portion”), provided that our Company may, in consultation with the BRLMs, allocate up to 60% of the QIB Portion to Anchor Investors on a discretionary basis, in accordance with the SEBI ICDR Regulations (the “Anchor Investor Portion”), of which 40% shall be reserved in the following manner (i) 33.33% of the Anchor Investor Portion shall be reserved for domestic Mutual Funds; and (ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations. In the event of under-subscription or non-allocation in the Anchor Investor Portion, the balance Equity Shares shall be added to the QIB Portion (other than the Anchor Investor Portion) (the “Net QIB Portion”). Further, 5% of the Net QIB Portion shall be available for allocation on a proportionate basis to Mutual Funds only, subject to valid Bids being received at or above the Offer Price, and the remainder of the Net QIB Portion shall be available for allocation on a proportionate basis to all QIBs, including Mutual Funds, subject to valid Bids being received at or above the Offer Price. Further, not less than 15% of the Offer shall be available for allocation to Non-Institutional Investors (“Non-Institutional Portion”) of which one-third of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹0.20 million and up to ₹1.00 million and two-thirds of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹1.00 million and undersubscription in either of these two sub-categories of the Non-Institutional Portion may be allocated to Bidders in the other sub-category of the Non-Institutional Portion in accordance with the SEBI ICDR Regulations, subject to valid Bids being received at or above the Offer Price. Further, not less than 35% of the Offer shall be available for allocation to Retail Individual Investors (“Retail Portion”), in accordance with the SEBI ICDR Regulations, subject to valid Bids being received from them at or above the Offer Price. All Bidders (except Anchor Investors) shall mandatorily participate in this Offer only through the Application Supported by Blocked Amount (“ASBA”)\nprocess and shall provide details of their respective bank account (including UPI ID (defined hereinafter) in case of UPI Bidders (defined hereinafter) in which the Bid Amount will be blocked by the Self Certified Syndicate Banks (“SCSBs”) or pursuant to the UPI Mechanism, as the case may be. Anchor Investors are not permitted to participate in the Anchor Investor Portion through the ASBA process. For details, see “Offer Procedure” on page 420.",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Mutual Funds",
+        "start": 1255,
+        "end": 1267,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Offer is being made in terms of Rule 19(2)(b) of the Securities Contracts (Regulation) Rules, 1957, as amended (the “SCRR”), read with Regulation 31 of the SEBI ICDR Regulations. The Offer is being made through the Book Building Process in accordance with Regulation 6(1) of the SEBI ICDR Regulations wherein not more than 50% of the Offer shall be available for allocation on a proportionate basis to Qualified Institutional Buyers (“QIBs”) (the “QIB Portion”), provided that our Company may, in consultation with the BRLMs, allocate up to 60% of the QIB Portion to Anchor Investors on a discretionary basis, in accordance with the SEBI ICDR Regulations (the “Anchor Investor Portion”), of which 40% shall be reserved in the following manner (i) 33.33% of the Anchor Investor Portion shall be reserved for domestic Mutual Funds; and (ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations. In the event of under-subscription or non-allocation in the Anchor Investor Portion, the balance Equity Shares shall be added to the QIB Portion (other than the Anchor Investor Portion) (the “Net QIB Portion”). Further, 5% of the Net QIB Portion shall be available for allocation on a proportionate basis to Mutual Funds only, subject to valid Bids being received at or above the Offer Price, and the remainder of the Net QIB Portion shall be available for allocation on a proportionate basis to all QIBs, including Mutual Funds, subject to valid Bids being received at or above the Offer Price. Further, not less than 15% of the Offer shall be available for allocation to Non-Institutional Investors (“Non-Institutional Portion”) of which one-third of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹0.20 million and up to ₹1.00 million and two-thirds of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹1.00 million and undersubscription in either of these two sub-categories of the Non-Institutional Portion may be allocated to Bidders in the other sub-category of the Non-Institutional Portion in accordance with the SEBI ICDR Regulations, subject to valid Bids being received at or above the Offer Price. Further, not less than 35% of the Offer shall be available for allocation to Retail Individual Investors (“Retail Portion”), in accordance with the SEBI ICDR Regulations, subject to valid Bids being received from them at or above the Offer Price. All Bidders (except Anchor Investors) shall mandatorily participate in this Offer only through the Application Supported by Blocked Amount (“ASBA”)\nprocess and shall provide details of their respective bank account (including UPI ID (defined hereinafter) in case of UPI Bidders (defined hereinafter) in which the Bid Amount will be blocked by the Self Certified Syndicate Banks (“SCSBs”) or pursuant to the UPI Mechanism, as the case may be. Anchor Investors are not permitted to participate in the Anchor Investor Portion through the ASBA process. For details, see “Offer Procedure” on page 420.",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Mutual Funds",
+        "start": 1255,
+        "end": 1267,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Offer is being made in terms of Rule 19(2)(b) of the Securities Contracts (Regulation) Rules, 1957, as amended (the “SCRR”), read with Regulation 31 of the SEBI ICDR Regulations. The Offer is being made through the Book Building Process in accordance with Regulation 6(1) of the SEBI ICDR Regulations wherein not more than 50% of the Offer shall be available for allocation on a proportionate basis to Qualified Institutional Buyers (“QIBs”) (the “QIB Portion”), provided that our Company may, in consultation with the BRLMs, allocate up to 60% of the QIB Portion to Anchor Investors on a discretionary basis, in accordance with the SEBI ICDR Regulations (the “Anchor Investor Portion”), of which 40% shall be reserved in the following manner (i) 33.33% of the Anchor Investor Portion shall be reserved for domestic Mutual Funds; and (ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations. In the event of under-subscription or non-allocation in the Anchor Investor Portion, the balance Equity Shares shall be added to the QIB Portion (other than the Anchor Investor Portion) (the “Net QIB Portion”). Further, 5% of the Net QIB Portion shall be available for allocation on a proportionate basis to Mutual Funds only, subject to valid Bids being received at or above the Offer Price, and the remainder of the Net QIB Portion shall be available for allocation on a proportionate basis to all QIBs, including Mutual Funds, subject to valid Bids being received at or above the Offer Price. Further, not less than 15% of the Offer shall be available for allocation to Non-Institutional Investors (“Non-Institutional Portion”) of which one-third of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹0.20 million and up to ₹1.00 million and two-thirds of the Non-Institutional Portion shall be available for allocation to Bidders with an application size of more than ₹1.00 million and undersubscription in either of these two sub-categories of the Non-Institutional Portion may be allocated to Bidders in the other sub-category of the Non-Institutional Portion in accordance with the SEBI ICDR Regulations, subject to valid Bids being received at or above the Offer Price. Further, not less than 35% of the Offer shall be available for allocation to Retail Individual Investors (“Retail Portion”), in accordance with the SEBI ICDR Regulations, subject to valid Bids being received from them at or above the Offer Price. All Bidders (except Anchor Investors) shall mandatorily participate in this Offer only through the Application Supported by Blocked Amount (“ASBA”)\nprocess and shall provide details of their respective bank account (including UPI ID (defined hereinafter) in case of UPI Bidders (defined hereinafter) in which the Bid Amount will be blocked by the Self Certified Syndicate Banks (“SCSBs”) or pursuant to the UPI Mechanism, as the case may be. Anchor Investors are not permitted to participate in the Anchor Investor Portion through the ASBA process. For details, see “Offer Procedure” on page 420.",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Mutual Funds",
+        "start": 1255,
+        "end": 1267,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offer of Equity Shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active and/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 170,
+        "end": 629,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offer of Equity Shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active and/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 170,
+        "end": 629,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offer of Equity Shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active and/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 170,
+        "end": 629,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offer of Equity Shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active and/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 170,
+        "end": 629,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offer of Equity Shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active and/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 170,
+        "end": 629,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offer of Equity Shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active and/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 170,
+        "end": 629,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offer of Equity Shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active and/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 170,
+        "end": 629,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "This being the first public offer of Equity Shares of our Company, there has been no formal market for the Equity Shares. The face value of the Equity Shares is ₹5 each. The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active and/or sustained\ntrading in the Equity Shares nor regarding the price at which the Equity Shares will be traded after listing.",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "The Offer Price, Floor Price or Cap Price (as determined by our Company, in consultation with the Book Running Lead Managers, in accordance with the SEBI ICDR Regulations), and on the basis of the assessment of market demand for the Equity Shares by way of the Book Building Process, as stated under “Basis for the Offer Price” on page 124, should not be considered to be indicative of the market price of the Equity Shares after the Equity Shares are listed.",
+        "start": 170,
+        "end": 629,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Equity Shares, offered through this Red Herring Prospectus, are proposed to be listed on the Stock Exchanges. Our Company has received in-principle approvals from BSE and NSE for listing of the Equity Shares pursuant to their letters each dated August 4, 2025, respectively. For the purposes of the Offer, the Designated Stock Exchange shall be BSE. A copy of this Red Herring Prospectus has been filed with the RoC and a copy of the Prospectus shall be filed with the RoC in accordance with Sections 26(4) and 32 of the Companies Act, 2013. For details of the material contracts and documents available for inspection from the date of this Red Herring Prospectus until the Bid/Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 465.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "August 4, 2025",
+        "start": 249,
+        "end": 263,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Equity Shares, offered through this Red Herring Prospectus, are proposed to be listed on the Stock Exchanges. Our Company has received in-principle approvals from BSE and NSE for listing of the Equity Shares pursuant to their letters each dated August 4, 2025, respectively. For the purposes of the Offer, the Designated Stock Exchange shall be BSE. A copy of this Red Herring Prospectus has been filed with the RoC and a copy of the Prospectus shall be filed with the RoC in accordance with Sections 26(4) and 32 of the Companies Act, 2013. For details of the material contracts and documents available for inspection from the date of this Red Herring Prospectus until the Bid/Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 465.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "August 4, 2025",
+        "start": 249,
+        "end": 263,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Equity Shares, offered through this Red Herring Prospectus, are proposed to be listed on the Stock Exchanges. Our Company has received in-principle approvals from BSE and NSE for listing of the Equity Shares pursuant to their letters each dated August 4, 2025, respectively. For the purposes of the Offer, the Designated Stock Exchange shall be BSE. A copy of this Red Herring Prospectus has been filed with the RoC and a copy of the Prospectus shall be filed with the RoC in accordance with Sections 26(4) and 32 of the Companies Act, 2013. For details of the material contracts and documents available for inspection from the date of this Red Herring Prospectus until the Bid/Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 465.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "August 4, 2025",
+        "start": 249,
+        "end": 263,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Equity Shares, offered through this Red Herring Prospectus, are proposed to be listed on the Stock Exchanges. Our Company has received in-principle approvals from BSE and NSE for listing of the Equity Shares pursuant to their letters each dated August 4, 2025, respectively. For the purposes of the Offer, the Designated Stock Exchange shall be BSE. A copy of this Red Herring Prospectus has been filed with the RoC and a copy of the Prospectus shall be filed with the RoC in accordance with Sections 26(4) and 32 of the Companies Act, 2013. For details of the material contracts and documents available for inspection from the date of this Red Herring Prospectus until the Bid/Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 465.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "August 4, 2025",
+        "start": 249,
+        "end": 263,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Equity Shares, offered through this Red Herring Prospectus, are proposed to be listed on the Stock Exchanges. Our Company has received in-principle approvals from BSE and NSE for listing of the Equity Shares pursuant to their letters each dated August 4, 2025, respectively. For the purposes of the Offer, the Designated Stock Exchange shall be BSE. A copy of this Red Herring Prospectus has been filed with the RoC and a copy of the Prospectus shall be filed with the RoC in accordance with Sections 26(4) and 32 of the Companies Act, 2013. For details of the material contracts and documents available for inspection from the date of this Red Herring Prospectus until the Bid/Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 465.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "August 4, 2025",
+        "start": 249,
+        "end": 263,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Equity Shares, offered through this Red Herring Prospectus, are proposed to be listed on the Stock Exchanges. Our Company has received in-principle approvals from BSE and NSE for listing of the Equity Shares pursuant to their letters each dated August 4, 2025, respectively. For the purposes of the Offer, the Designated Stock Exchange shall be BSE. A copy of this Red Herring Prospectus has been filed with the RoC and a copy of the Prospectus shall be filed with the RoC in accordance with Sections 26(4) and 32 of the Companies Act, 2013. For details of the material contracts and documents available for inspection from the date of this Red Herring Prospectus until the Bid/Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 465.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "August 4, 2025",
+        "start": 249,
+        "end": 263,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Equity Shares, offered through this Red Herring Prospectus, are proposed to be listed on the Stock Exchanges. Our Company has received in-principle approvals from BSE and NSE for listing of the Equity Shares pursuant to their letters each dated August 4, 2025, respectively. For the purposes of the Offer, the Designated Stock Exchange shall be BSE. A copy of this Red Herring Prospectus has been filed with the RoC and a copy of the Prospectus shall be filed with the RoC in accordance with Sections 26(4) and 32 of the Companies Act, 2013. For details of the material contracts and documents available for inspection from the date of this Red Herring Prospectus until the Bid/Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 465.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "August 4, 2025",
+        "start": 249,
+        "end": 263,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The Equity Shares, offered through this Red Herring Prospectus, are proposed to be listed on the Stock Exchanges. Our Company has received in-principle approvals from BSE and NSE for listing of the Equity Shares pursuant to their letters each dated August 4, 2025, respectively. For the purposes of the Offer, the Designated Stock Exchange shall be BSE. A copy of this Red Herring Prospectus has been filed with the RoC and a copy of the Prospectus shall be filed with the RoC in accordance with Sections 26(4) and 32 of the Companies Act, 2013. For details of the material contracts and documents available for inspection from the date of this Red Herring Prospectus until the Bid/Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 465.",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "August 4, 2025",
+        "start": 249,
+        "end": 263,
+        "fp": true
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Nuvama Wealth Management Limited\n801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India\nTel: +91 22 40094400\nE-mail: ksh.ipo@nuvama.com\nWebsite: www.nuvama.com\nInvestor grievance email: customerservice.mb@nuvama.com\nContact Person: Lokesh Shah/ Soumavo Sarkar\nSEBI Registration Number: INM000013004",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "Nuvama Wealth Management Limited\n801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India\nTel: +91 22 40094400\nE-mail: ksh.ipo@nuvama.com\nWebsite: www.nuvama.com\nInvestor grievance email: customerservice.mb@nuvama.com\nContact Person: Lokesh Shah/ Soumavo Sarkar\nSEBI Registration Number: INM000013004",
+        "start": 0,
+        "end": 368,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Nuvama Wealth Management Limited\n801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India\nTel: +91 22 40094400\nE-mail: ksh.ipo@nuvama.com\nWebsite: www.nuvama.com\nInvestor grievance email: customerservice.mb@nuvama.com\nContact Person: Lokesh Shah/ Soumavo Sarkar\nSEBI Registration Number: INM000013004",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "Nuvama Wealth Management Limited\n801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India\nTel: +91 22 40094400\nE-mail: ksh.ipo@nuvama.com\nWebsite: www.nuvama.com\nInvestor grievance email: customerservice.mb@nuvama.com\nContact Person: Lokesh Shah/ Soumavo Sarkar\nSEBI Registration Number: INM000013004",
+        "start": 0,
+        "end": 368,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "ICICI Securities Limited\nICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India\nTel: +91 22 6807 7100\nE-mail: ksh@icicisecurities.com\nWebsite: www.icicisecurities.com\nInvestor grievance email: customercare@icicisecurities.com\nContact Person: Kishan Rastogi/Abhijit Diwan\nSEBI Registration Number: INM000011179",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "ICICI Securities Limited\nICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India\nTel: +91 22 6807 7100\nE-mail: ksh@icicisecurities.com\nWebsite: www.icicisecurities.com\nInvestor grievance email: customercare@icicisecurities.com\nContact Person: Kishan Rastogi/Abhijit Diwan\nSEBI Registration Number: INM000011179",
+        "start": 0,
+        "end": 345,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "ICICI Securities Limited\nICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India\nTel: +91 22 6807 7100\nE-mail: ksh@icicisecurities.com\nWebsite: www.icicisecurities.com\nInvestor grievance email: customercare@icicisecurities.com\nContact Person: Kishan Rastogi/Abhijit Diwan\nSEBI Registration Number: INM000011179",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "ICICI Securities Limited\nICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India\nTel: +91 22 6807 7100\nE-mail: ksh@icicisecurities.com\nWebsite: www.icicisecurities.com\nInvestor grievance email: customercare@icicisecurities.com\nContact Person: Kishan Rastogi/Abhijit Diwan\nSEBI Registration Number: INM000011179",
+        "start": 0,
+        "end": 345,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "ICICI Securities Limited\nICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India\nTel: +91 22 6807 7100\nE-mail: ksh@icicisecurities.com\nWebsite: www.icicisecurities.com\nInvestor grievance email: customercare@icicisecurities.com\nContact Person: Kishan Rastogi/Abhijit Diwan\nSEBI Registration Number: INM000011179",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "ICICI Securities Limited\nICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India\nTel: +91 22 6807 7100\nE-mail: ksh@icicisecurities.com\nWebsite: www.icicisecurities.com\nInvestor grievance email: customercare@icicisecurities.com\nContact Person: Kishan Rastogi/Abhijit Diwan\nSEBI Registration Number: INM000011179",
+        "start": 0,
+        "end": 345,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "ICICI Securities Limited\nICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India\nTel: +91 22 6807 7100\nE-mail: ksh@icicisecurities.com\nWebsite: www.icicisecurities.com\nInvestor grievance email: customercare@icicisecurities.com\nContact Person: Kishan Rastogi/Abhijit Diwan\nSEBI Registration Number: INM000011179",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "ICICI Securities Limited\nICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India\nTel: +91 22 6807 7100\nE-mail: ksh@icicisecurities.com\nWebsite: www.icicisecurities.com\nInvestor grievance email: customercare@icicisecurities.com\nContact Person: Kishan Rastogi/Abhijit Diwan\nSEBI Registration Number: INM000011179",
+        "start": 0,
+        "end": 345,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "MUFG Intime India Private Limited\n(Formerly Link Intime India Private Limited)\nC-101, Embassy 247, 1st Floor, L B S Marg, Vikhroli (West), Mumbai 400083, (Maharashtra), India\nTel: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com\nWebsite: www.in.mpms.mufg.com\nInvestor grievance e-mail: kshinternational.ipo@in.mpms.mufg.com\nContact Person: Shanti Gopalkrishnan\nSEBI Registration Number: INR000004058",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "MUFG Intime India Private Limited\n(Formerly Link Intime India Private Limited)\nC-101, Embassy 247, 1st Floor, L B S Marg, Vikhroli (West), Mumbai 400083, (Maharashtra), India\nTel: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com\nWebsite: www.in.mpms.mufg.com\nInvestor grievance e-mail: kshinternational.ipo@in.mpms.mufg.com\nContact Person: Shanti Gopalkrishnan\nSEBI Registration Number: INR000004058",
+        "start": 0,
+        "end": 412,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "MUFG Intime India Private Limited\n(Formerly Link Intime India Private Limited)\nC-101, Embassy 247, 1st Floor, L B S Marg, Vikhroli (West), Mumbai 400083, (Maharashtra), India\nTel: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com\nWebsite: www.in.mpms.mufg.com\nInvestor grievance e-mail: kshinternational.ipo@in.mpms.mufg.com\nContact Person: Shanti Gopalkrishnan\nSEBI Registration Number: INR000004058",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "MUFG Intime India Private Limited\n(Formerly Link Intime India Private Limited)\nC-101, Embassy 247, 1st Floor, L B S Marg, Vikhroli (West), Mumbai 400083, (Maharashtra), India\nTel: +91 81081 14949\nE-mail: kshinternational.ipo@in.mpms.mufg.com\nWebsite: www.in.mpms.mufg.com\nInvestor grievance e-mail: kshinternational.ipo@in.mpms.mufg.com\nContact Person: Shanti Gopalkrishnan\nSEBI Registration Number: INR000004058",
+        "start": 0,
+        "end": 412,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Monday, December 15,\n2025",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 15,\n2025",
+        "start": 8,
+        "end": 25,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Monday, December 15,\n2025",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 15,\n2025",
+        "start": 8,
+        "end": 25,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Tuesday, December 16,\n2025",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 16,\n2025",
+        "start": 9,
+        "end": 26,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Thursday, December 18, 2025",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 18, 2025",
+        "start": 10,
+        "end": 27,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "KSH International Limited, a public limited company incorporated under the Companies Act, 1956, having its registered office at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India",
+    "detections": [
+      {
+        "pii_type": "ADDRESS",
+        "text": "KSH International Limited, a public limited company incorporated under the Companies Act, 1956, having its registered office at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India",
+        "start": 0,
+        "end": 224,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Bonus issue undertaken on February 21, 2025, in the ratio of four Equity Shares of face value of\n₹5 for every one Equity Share of face value of ₹5 held by our Shareholders as on February 10, 2025. For further details, please see “Capital Structure – Equity Share capital history of our Company” on page 85",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "February 21, 2025",
+        "start": 26,
+        "end": 43,
+        "fp": false
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "February 10, 2025",
+        "start": 178,
+        "end": 195,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "Report titled “Industry Research Report on Magnet Winding Wires Market in India” dated November 26, 2025, prepared and issued by CARE Analytics and Advisory Private Limited which has been commissioned by and paid for by our Company pursuant to an engagement letter dated December 2, 2024 entered into with CARE Analytics and Advisory Private Limited, exclusively for the purposes of the Offer. The report will be available on the website of our Company at\nhttps://kshinternational.com/investor-relations/industry-report/ from the date of this Red Herring Prospectus until the Bid/Offer Closing Date",
+    "detections": [
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "November 26, 2025",
+        "start": 87,
+        "end": 104,
+        "fp": false
+      },
+      {
+        "pii_type": "DATE_OF_BIRTH",
+        "text": "December 2, 2024",
+        "start": 271,
+        "end": 287,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The chairman and executive director of our Company, being Kushal Subbayya Hegde. For further details, see “Our Management – Board of Directors” on page 250",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Kushal Subbayya Hegde",
+        "start": 58,
+        "end": 79,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The chief executive officer of our Company, being Sandesh Bhagwat. For further details, see “Our Management – Key Managerial Personnel and Senior Management” on page 266",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Sandesh Bhagwat",
+        "start": 50,
+        "end": 65,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The chief financial officer of our Company, being Amod Joshi. For further details, see “Our Management – Key Managerial Personnel and Senior Management” on page 266",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Amod Joshi",
+        "start": 50,
+        "end": 60,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  },
+  {
+    "text": "The company secretary and compliance officer of our Company, being Sarthak Malvadkar. For further details, see “General Information” and “Our Management – Key Managerial Personnel and Senior Management” on pages 74 and 266, respectively.",
+    "detections": [
+      {
+        "pii_type": "PERSON",
+        "text": "Sarthak Malvadkar",
+        "start": 67,
+        "end": 84,
+        "fp": false
+      }
+    ],
+    "missed_annotations": []
+  }
+]

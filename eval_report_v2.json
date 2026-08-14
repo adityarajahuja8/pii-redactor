@@ -1,0 +1,60 @@
+{
+  "per_type": {
+    "ADDRESS": {
+      "tp": 29,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "CIN": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "DATE_OF_BIRTH": {
+      "tp": 15,
+      "fp": 34,
+      "fn": 0,
+      "precision": 0.306,
+      "recall": 1.0,
+      "f1": 0.469
+    },
+    "EMAIL": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "PERSON": {
+      "tp": 114,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "PHONE": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "overall": {
+    "tp": 180,
+    "fp": 34,
+    "fn": 0,
+    "precision": 0.841,
+    "recall": 1.0,
+    "f1": 0.914
+  }
+}
