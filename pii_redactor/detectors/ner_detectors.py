@@ -40,30 +40,28 @@ _nlp = None
 def _get_nlp():
     global _nlp
     if _nlp is None:
-        try:
-            import spacy
+        import spacy
+        # Try large model, then small model by name, then small model by package import
+        for model_name in ["en_core_web_lg", "en_core_web_sm"]:
             try:
-                _nlp = spacy.load("en_core_web_lg")
-                logger.info("Loaded spaCy model: en_core_web_lg")
+                _nlp = spacy.load(model_name)
+                logger.info(f"Loaded spaCy model: {model_name}")
+                return _nlp
             except OSError:
-                # Fallback to smaller model
-                try:
-                    _nlp = spacy.load("en_core_web_sm")
-                    logger.warning(
-                        "en_core_web_lg not found, falling back to en_core_web_sm. "
-                        "NER quality will be lower."
-                    )
-                except OSError:
-                    raise RuntimeError(
-                        "No spaCy model found. Run:\n"
-                        "  python -m spacy download en_core_web_lg\n"
-                        "or:\n"
-                        "  python -m spacy download en_core_web_sm"
-                    )
-        except ImportError:
+                if model_name == "en_core_web_lg":
+                    logger.warning("en_core_web_lg not found, trying en_core_web_sm...")
+                continue
+        
+        # Try direct package import fallback (for whl installations)
+        try:
+            import en_core_web_sm
+            _nlp = en_core_web_sm.load()
+            logger.info("Loaded spaCy model via direct import: en_core_web_sm")
+            return _nlp
+        except Exception as e:
             raise RuntimeError(
-                "spaCy is not installed. Run: pip install spacy"
-            )
+                "No spaCy model found. Please install en_core_web_sm model."
+            ) from e
     return _nlp
 
 

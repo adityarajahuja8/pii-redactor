@@ -14,7 +14,8 @@ COPY . /app
 
 # Install Python dependencies globally inside container
 RUN pip3 install --no-cache-dir python-docx spacy faker tqdm --break-system-packages
-RUN pip3 install --no-cache-dir https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl --break-system-packages
+RUN python3 -m spacy download en_core_web_sm --break-system-packages || \
+    pip3 install --no-cache-dir https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl --break-system-packages
 
 # Install Node server dependencies
 RUN cd pii_web/server && npm install
