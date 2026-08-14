@@ -1,0 +1,6 @@
+# Python dependencies for pii_redactor
+# Pinned to match local development environment
+python-docx==1.2.0
+spacy==3.8.15
+faker==40.36.0
+tqdm==4.70.0
